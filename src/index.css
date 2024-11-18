@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  min-width: 0;
+}
+
+@layer base {
+  body {
+    @apply bg-zinc-950 text-zinc-50 antialiased;
+  }
+
+  input {
+    color-scheme: dark;
+  }
+
+  :root {
+    ._root_1hlpg_3 {
+      --rdp-font-family: theme(fontFamily.sans);
+      --rdp-accent-color: theme(colors.lime.400);
+  
+      --rdp-range_start-date-background-color: theme(colors.lime.950);
+      --rdp-range_start-color: theme(colors.zinc.100);
+  
+      --rdp-range_end-date-background-color: theme(colors.lime.950);
+      --rdp-range_end-color: theme(colors.zinc.100);
+    }
+  }
+}
